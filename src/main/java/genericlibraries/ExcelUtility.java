@@ -34,10 +34,11 @@ public class ExcelUtility {
 	 
 	 /**This method is use read data of specified test script at a time
 	  * @parameter sheetName
-	  * @parameter expected TestName
+	  * @parameter expected TestName 
 	  * @return
 	  */
-	 public Map<String, String> readFromExcel(String sheetName, String expectedTestName)
+	 
+	public Map<String, String> readFromExcel(String sheetName, String expectedTestName)
 	 {
 		 Map<String, String> map= new HashMap<String, String>();
 		 df=new DataFormatter();
