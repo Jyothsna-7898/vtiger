@@ -9,6 +9,7 @@ import genericlibraries.BaseClass;
 import genericlibraries.IConstantPath;
 
 public class CreateContactTest extends BaseClass {
+	//Here we are creating contact
 	@Test
 	public void createContactTest() {
 		SoftAssert soft = new SoftAssert();
